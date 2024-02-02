@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="quiz.css" />
+        <title>Quiz Game</title>
+    </head>
+    <body>
+        <h3>Quiz</h3>
+        <div class="container">
+            <div class="question-area quiz">
+                <p id="question">.</p>
+            </div>
+            <div class="answers-area quiz">
+                <div class="answer" id="a0"></div>
+                <div class="answer" id="a1"></div>
+                <div class="answer" id="a2"></div>
+                <div class="answer" id="a3"></div>
+            </div>
+            <div class="btn-area quiz">
+                <button id="commit-btn" class="btn">Next question</button>
+            </div>
+
+            <div id="score-display" class="score hidden">
+                <button id="replay-btn" class="btn">Replay ?</button>
+            </div>
+        </div>
+        <script src="quiz.js"></script>
+    </body>
+</html>
